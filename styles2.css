@@ -1,0 +1,35 @@
+#ourmenu{
+    width:100vw;
+    text-align: center;
+}
+@keyframes expand{
+    from{height: 0;}
+    to{height: 290px;}
+}
+
+.col-sm-4 li{
+    padding:10px
+}
+.col-sm-4{
+    width:300px
+}
+.dropdown-item{
+    transition: 0.2s;
+}
+.dropdown-item:hover{
+    border-left: 4px solid red;
+}
+@media screen and (max-width:756px){
+.navbar-brand img{
+    width:20px;
+    height: 40px;
+
+}
+}
+.caption{
+    position: absolute;
+    top:400px;
+    left:350px;
+    
+}
+
